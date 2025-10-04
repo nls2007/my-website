@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSGO2 Event Info</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;    
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url('10691507811336063.jpg') no-repeat center center fixed;
+      background-size: cover;
+      filter: blur(8px); 
+      z-index: -1; 
+    }
+
+    .container {
+      background: white;  
+      border-radius: 12px;
+      border: 2px solid #000;
+      width: 700px;
+      padding: 30px;
+      position: relative;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      z-index: 1; 
+    }
+
+    .top-left-image {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 60px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .info p, .rules ul {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .rules ul {
+      padding-left: 20px;
+    }
+
+    .rules li::marker {
+      content: "* ";
+      color: red;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .button {
+      padding: 10px 30px;
+      font-size: 18px;
+      border: 2px solid #000;
+      background-color: white;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="Counter-Strike_2_29.webp" alt="Logo" class="top-left-image">
+    <h2>E-sport Competition Labuan 2025<br>Information</h2>
+
+    <div class="info">
+      <p><strong>Venue:</strong> Ujana Kewangan</p>
+      <p><strong>Date & Time:</strong> 16–21 July 2025, 10:00 a.m. – 4:00 p.m.</p>
+      <p><strong>Fees:</strong> RM 40</p>
+      <p><strong>Prizes:</strong></p>
+      <ul>
+        <li>1st Place: RM 1000</li>
+        <li>2nd Place: RM 500</li>
+        <li>3rd Place: RM 250</li>
+      </ul>
+    </div>
+
+    <div class="rules">
+      <h3>Rules</h3>
+      <ul>
+        <li>Only for 12 years old and above</li>
+        <li>Players can bring their own equipment</li>
+        <li>Players must be ready before the match starts</li>
+        <li>Any cheating software will be investigated</li>
+      </ul>
+    </div>
+
+    <div class="buttons">
+      <a href="signup.html" class="button">Join Now</a>
+       <a href="promot video.html" class="button">Watching highlight video</a>
+      <a href="index.html" class="button">Back</a>
+    </div>
+  </div>
+</body>
+</html>
